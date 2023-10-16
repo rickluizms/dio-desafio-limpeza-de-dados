@@ -16,7 +16,7 @@ O CryptoETL é composto por vários subprojetos, cada um desempenhando uma funç
 
 - **Azure SQL Database:** Plataforma de banco de dados utilizada para armazenar os dados das criptomoedas.
 - **Python:** Jupyter notebooks para limpeza e carga de dados no banco de dados.
-- **Power BI:** Software de business intelligence utilizado para extrair dados do banco de dados Azure, realizar transformações e criar visualizações informativas.
+- **Power BI:** Software de business intelligence utilizado para extrair dados do banco de dados Azure, realizar transformações e criar as visualizações informativas.
 
 ## Referências de Dados
 
@@ -25,14 +25,7 @@ Os dados iniciais para este projeto foram obtidos da plataforma Kaggle. Gostarí
 - **Autor:** [Lasal Jayawardena](https://www.kaggle.com/datasets/lasaljaywardena)
 - **Conjunto de Dados:** [Global Cryptocurrency Price Database](https://www.kaggle.com/datasets/lasaljaywardena/global-cryptocurrency-price-database/data)
 
-## Referências de Imagens
-
-As imagens utilizadas neste projeto foram obtidas da plataforma flaticon. Gostaria de expressar nossa gratidão também aos autores originais das imagens utilizadas no projeto:
-
-- **Autor:** [kmg design](https://www.flaticon.com/br/autores/kmg-design)
-- **Imagem:** [Painel de controle ícones](https://www.flaticon.com/br/icones-gratis/painel-de-controle) criados por kmg design - Flaticon
-
-## Referências de Ícones de Criptomoedas
+## Referências dos Ícones de Criptomoedas
 
 Os ícones das criptomoedas utilizados neste projeto foram obtidos do site [CryptoIcons](http://cryptoicons.co/). Gostaríamos de expressar nossa gratidão ao autor original desses ícones.
 
