@@ -98,41 +98,6 @@
             vIcon & vPerc_format
             ```
 
-
-        - [ ] Valores por periodo:
-
-            - [ ] 1 Dia - 1d
-
-                ```
-                btc_price_1d = CALCULATE(SUM(bitcoin_usd[open_price]), LASTDATE(_Calendario[date]))
-
-                ```
-
-            - [ ] 1 Semana - 1w
-                        
-                ```
-                btc_price_1w = CALCULATE(SUM(bitcoin_usd[open_price]), LASTDATE(DATEADD(_Calendario[date], -7, DAY)))
-
-                ```
-
-            - [ ] 1 Mês - 1m
-                        
-                ```
-                btc_price_1m = CALCULATE(SUM(bitcoin_usd[open_price]), LASTDATE(DATEADD(_Calendario[date], -1, MONTH)))
-                ```
-
-            - [ ] 1 Ano - 1y
-            
-                ```
-                btc_price_1y = CALCULATE(SUM(bitcoin_usd[open_price]), LASTDATE(DATEADD(_Calendario[date], -1, YEAR)))
-                ```
-
-            - [ ] Sempre - all
-            
-                ```
-                btc_price_all = SUM(bitcoin_usd[open_price])
-                ```
-
         - [x] Adicionar valores no card
         ![Adicionar valores](screenshots/add-card-value.png)
 
