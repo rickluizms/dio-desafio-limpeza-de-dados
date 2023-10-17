@@ -1,6 +1,9 @@
 import pandas as pd
 import pyodbc
 
+#TODO - Implementar abordagem mais eficaz na carga de dados
+# Teste 01 - Inserir arquivo .csv com BULK INSERT
+
 def does_table_exist(cursor, table_name):
     cursor.execute(f"IF OBJECT_ID('{table_name}', 'U') IS NOT NULL SELECT 1 ELSE SELECT 0")
     result = cursor.fetchone()
@@ -46,10 +49,7 @@ def insert_table(table_name_str, data, str_conn):
             column_names = [toProperStr(col) for col in dataframe.columns]
             column_names_str = ', '.join(column_names)
             query = f"INSERT INTO {table_name} ({column_names_str}) VALUES ({values_str})"
-            cursor.execute(query, values)
-
-        #TODO - Implementar abordagem mais eficaz na carga de dados
-        # Teste 01 - Inserir arquivo .csv com BULK INSERT 
+            cursor.execute(query, values) 
 
         connection.commit()
         print(f'Dados da tabela: {table_name} atualizados com sucesso')
