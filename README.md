@@ -47,8 +47,6 @@ O CryptoETL é um projeto dedicado à extração, transformação e carga (ETL) 
     ├── README.md
     └── requirements.txt                      # Requirements do projeto
 
-> Use short lowercase names at least for the top-level files and folders except
-> `LICENSE`, `README.md`
 
 
 ### Database
