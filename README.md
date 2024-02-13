@@ -32,14 +32,20 @@ O CryptoETL é um projeto dedicado à extração, transformação e carga (ETL) 
 ## Estrutura do Diretório
 
     .
-    ├── apps                         # Its app workspace which contains
-    │    ├── www                     # Nextjs app which is deployed in Vercel
-    │    └── ...
-    ├── tooling                      # are the shared configuration that are used by the apps and packages (e.g. `@projectx/eslint-config`)
-    ├── packages                     # are the shared packages that are used by the apps (e.g. `@projectx/components`)
-    ├── docker-compose.yml
-    ├── LICENSE
-    └── README.md
+    ├── dashboard/                             # Diretório do Dashboard
+    │    ├── icons/  
+    |    ├── screenshots/
+    |    ├── dio-dashboard-desafio2.pbix      # Dashboard para visualização
+    │    └── todo.md                          # Task CheckList
+    ├── pipeline/
+    |   ├── data/
+    |   ├── utils/                            # Scripts para pipeline
+    |   ├── __init__.py                        
+    |   ├── load.py                        
+    │   └── pipe.ipynb                        # Pipeline de ingestão de Dados no banco
+    ├── .gitignore            
+    ├── README.md
+    └── requirements.txt                      # Requirements do projeto
 
 > Use short lowercase names at least for the top-level files and folders except
 > `LICENSE`, `README.md`
