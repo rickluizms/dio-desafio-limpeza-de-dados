@@ -27,7 +27,9 @@
 Bem-vindo ao CryptoETL.
 O CryptoETL é um projeto dedicado à extração, transformação e carga (ETL) de dados relacionados a criptomoedas. Utilizando a plataforma Azure, especificamente um banco de dados SQL, este projeto realiza a ingestão de dados provenientes da plataforma Kaggle, realiza transformações essenciais e utiliza o Power BI para a visualização dos dados processados.
 
-## Descrição do Projeto
+## Dashboard:
+
+![Dashboard](dashboard/screenshots/dio-dashboard.png)
 
 ## Estrutura do Diretório
 
