@@ -29,6 +29,22 @@ O CryptoETL é um projeto dedicado à extração, transformação e carga (ETL) 
 
 ## Descrição do Projeto
 
+## Estrutura do Diretório
+
+    .
+    ├── apps                         # Its app workspace which contains
+    │    ├── www                     # Nextjs app which is deployed in Vercel
+    │    └── ...
+    ├── tooling                      # are the shared configuration that are used by the apps and packages (e.g. `@projectx/eslint-config`)
+    ├── packages                     # are the shared packages that are used by the apps (e.g. `@projectx/components`)
+    ├── docker-compose.yml
+    ├── LICENSE
+    └── README.md
+
+> Use short lowercase names at least for the top-level files and folders except
+> `LICENSE`, `README.md`
+
+
 ### Database
 
 Para o projeto utilizamos um banco de dados SQLServer da plataforma Azure.
