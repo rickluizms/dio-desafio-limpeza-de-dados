@@ -56,8 +56,7 @@
             "Dia", DAY([Date]),
             "Dia da Semana", WEEKDAY([Date]),
             "Nome do Mês", FORMAT([Date], "MMMM"),
-            "Trimestre", QUARTER([Date])
-)
+            "Trimestre", QUARTER([Date]))
         ```
 
 - #### **Criar medidas e tabelas personalizadas para o relatório**
