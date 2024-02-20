@@ -40,6 +40,26 @@
         ```
 
 ## 3 - Criar Medidas
+
+- #### **Calendário**
+
+    - [x] **Calendário**
+        ```
+        _Calendario = 
+        VAR datamin = DATE(2010, 1, 1)
+        VAR datamax = TODAY()
+        RETURN
+        ADDCOLUMNS(
+            CALENDAR(datamin, datamax),
+            "Ano", YEAR([Date]),
+            "Mês", MONTH([Date]),
+            "Dia", DAY([Date]),
+            "Dia da Semana", WEEKDAY([Date]),
+            "Nome do Mês", FORMAT([Date], "MMMM"),
+            "Trimestre", QUARTER([Date])
+)
+        ```
+
 - #### **Criar medidas e tabelas personalizadas para o relatório**
 
     - [x] **Medidas Bitcoin**
